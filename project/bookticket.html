@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    hotel booking
+</title>
+ <meta name="author" content="my name">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+<body >
+
+<div class="booking-widget">
+                <div class='booking-widget__header'>
+                    <figure>
+                     <a href="hotel.html">  <img src="C:\Users\anny\Desktop\project\hotel1.jpg"></a>
+                      <figcaption class='header-caption'>
+                        <h3 id="">Hotel Relais</h3>
+                        <span id=""><i class="fa fa-map-marker" aria-hidden="true"></i> Paris, France</span>
+                      </figcaption>         
+                    </figure>
+                </div>
+                <form>
+                    <ul class='booking-widget__form'>
+                        <li>
+                            <label for='check-in'>Check in</label>
+                            <div id='check-in' class='form-field'>
+                                <input type="text" value="" placeholder="9 July, 2016">
+                                <div class='datepicker'><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <label for='check-in'>Check out</label>
+                            <div id='check-out' class='form-field'>
+                                <input type="text" value="" placeholder="19 July, 2016">
+                                <div class='datepicker'><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                          <div class=' form-field form-field__checkbox'>
+                            <input type="checkbox" id='flexibleDates' value="">
+                          </div>
+                            <label for="flexibleDates">Flexible dates</label>
+                        </li>
+                        <li>
+                            <div class='form__dropdown'>
+                                <label for='adultsAmount'>Adults</label>
+                                <div class='form-field'> 
+                                <select id='adultsAmount'>    
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                </select>
+                                <div class='select-button'><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+                            </div>
+                            </div>
+                            <div class='form__dropdown'>
+                                <label for='childrenAmount'>Children</label>
+                                <br>
+                              <div class='form-field'> 
+                                <select id='childrenAmount'> 
+                                        <option value="0" selected="selected"></option>                        
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                </select>
+                                <div class='select-button'><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                           <input type="submit" id='bookingSubmit' class='form__submit' value='Search rooms'>
+                        </li>
+                    </ul>       
+                </form>
+            </div>
+            </html>
+</body>
